@@ -32,14 +32,15 @@ export default function FoxPhilosophy() {
         >
         </motion.p>
 
-       <motion.blockquote
-  className="mt-6 whitespace-nowrap font-[family-name:var(--font-bebas)] text-3xl leading-relaxed tracking-wide text-white sm:text-4xl md:text-5xl"
+    <motion.blockquote
+  className="mt-6 px-4 text-center font-[family-name:var(--font-bebas)] text-2xl leading-tight tracking-wide text-white sm:px-2 sm:text-4xl md:text-5xl"
   initial={{ opacity: 0, y: 30 }}
   animate={inView ? { opacity: 1, y: 0 } : {}}
   transition={{ duration: 0.8, delay: 0.3 }}
 >
   &ldquo;Creating solutions with{" "}
-  <span className="gradient-text">intelligence</span> and{" "}
+  <span className="gradient-text">intelligence</span>
+  <span className="sm:inline block"> and </span>
   <span className="gradient-text">precision</span>.&rdquo;
 </motion.blockquote>
 <motion.p
