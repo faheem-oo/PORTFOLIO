@@ -42,16 +42,20 @@ export default function FoxPhilosophy() {
   <span className="gradient-text">intelligence</span> and{" "}
   <span className="gradient-text">precision</span>.&rdquo;
 </motion.blockquote>
-        <motion.p
-          className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-slate-400"
-          initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.7, delay: 0.5 }}
-        >
-          I approach software development with strategy, creativity, and
-          adaptability. Every project is built with smart architecture, clean
-          design, and scalable thinking.
-
+<motion.p
+  className="mx-auto mt-6 max-w-2xl px-4 text-center text-base leading-relaxed text-slate-400 sm:mt-8 sm:px-0 sm:text-lg"
+  initial={{ opacity: 0, y: 20 }}
+  animate={inView ? { opacity: 1, y: 0 } : {}}
+  transition={{ duration: 0.7, delay: 0.5 }}
+>
+  <span className="block sm:inline">
+    I approach software development with strategy, creativity, and
+  </span>{" "}
+  <span className="block sm:inline">
+    adaptability. Every project is built with smart architecture, clean
+    design, and scalable thinking.
+  </span>
+</motion.p>
         {/* Decorative line */}
         <motion.div
           className="mx-auto mt-10 h-px w-24 bg-gradient-to-r from-transparent via-fox-orange to-transparent"

@@ -92,7 +92,7 @@ export default function About() {
                   </p>
                   <div className="mt-3 flex items-center gap-4">
                     <span className="rounded-full bg-fox-orange/10 px-3 py-1 text-xs text-fox-orange">
-                      CGPA: 8.62
+                      CGPA: 8.64
                     </span>
                     <span className="text-xs text-slate-500">
                       July 2023 – July 2027
