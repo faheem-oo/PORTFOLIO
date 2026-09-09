@@ -50,9 +50,7 @@ export default function FoxPhilosophy() {
         >
           I approach software development with strategy, creativity, and
           adaptability. Every project is built with smart architecture, clean
-          design, and scalable thinking — moving through challenges with the
-          sharp instinct of a fox.
-        </motion.p>
+          design, and scalable thinking.
 
         {/* Decorative line */}
         <motion.div
