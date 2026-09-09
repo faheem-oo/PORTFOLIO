@@ -30,20 +30,18 @@ export default function FoxPhilosophy() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          The Fox Philosophy
         </motion.p>
 
-        <motion.blockquote
-          className="mt-6 font-[family-name:var(--font-bebas)] text-3xl leading-relaxed tracking-wide text-white sm:text-4xl md:text-5xl"
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, delay: 0.3 }}
-        >
-          &ldquo;Like a fox navigating the forest with{" "}
-          <span className="gradient-text">intelligence</span> and{" "}
-          <span className="gradient-text">precision</span>.&rdquo;
-        </motion.blockquote>
-
+       <motion.blockquote
+  className="mt-6 whitespace-nowrap font-[family-name:var(--font-bebas)] text-3xl leading-relaxed tracking-wide text-white sm:text-4xl md:text-5xl"
+  initial={{ opacity: 0, y: 30 }}
+  animate={inView ? { opacity: 1, y: 0 } : {}}
+  transition={{ duration: 0.8, delay: 0.3 }}
+>
+  &ldquo;Creating solutions with{" "}
+  <span className="gradient-text">intelligence</span> and{" "}
+  <span className="gradient-text">precision</span>.&rdquo;
+</motion.blockquote>
         <motion.p
           className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-slate-400"
           initial={{ opacity: 0, y: 20 }}
