@@ -46,7 +46,7 @@ export default function About() {
             {/* Quick stats */}
             <div className="mt-8 grid grid-cols-3 gap-4">
               {[
-                { value: "4", label: "Experiences" },
+                { value: "4", label: "Internships" },
                 { value: "4+", label: "Projects" },
                 { value: "8.64", label: "CGPA" },
               ].map((stat, i) => (
