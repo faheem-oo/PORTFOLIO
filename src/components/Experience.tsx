@@ -14,7 +14,7 @@ const experiences = [
   },
   {
     role: "Internal IT Support",
-    company: "Vdart Technologies",
+    company: "VDart Technologies",
     date: "June 2025",
     description:
       "Developed Employee Management system using PHP and prepared detailed documentation of internal applications and tools used by the team.",
